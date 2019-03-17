@@ -1,0 +1,96 @@
+
+body{
+    color:black;
+    display: block;
+}
+.rounded{
+    border-radius: 39.2rem!important;
+    width: 20px;
+}
+.card-img-top{
+    width: 110%;
+
+}
+img.card-img-middle {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    position: inherit;
+    top: -44px;
+    left: calc(60% - 40px);
+}
+
+.left{
+    width: 72%;
+    height: 200px;
+    padding-right:15px;
+    padding-left: 0px;
+    border: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+    
+}
+.blocks{
+    margin-left: 9px;
+    padding: 12px
+}
+.block1{
+    display: block;
+    width: 15rem;
+
+}
+.block2{
+    display: block;
+    max-width: 50%;
+    float: left;
+    width: 50%;
+}
+.topnav {
+    background-color: #3097D1 !important;
+    overflow: hidden;
+    height: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 7px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+#search{
+    height: 20px;
+    width: 120px;
+    font-size: 7px
+}
+
+.card-body {
+    text-anchor: black;
+    padding: -0.75rem;
+    margin: -50px;
+    margin-bottom: 5px;
+} 
+
+.card-body p{
+    font-size: 7px;
+    margin-inline-start: 34px;
+    margin-inline-end: 34px;
+    margin-bottom: 0;
+}
