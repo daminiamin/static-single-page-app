@@ -2,6 +2,7 @@
 body{
     color:black;
     display: block;
+    background-color: aliceblue;
 }
 .rounded{
     border-radius: 39.2rem!important;
@@ -29,6 +30,35 @@ img.card-img-middle {
     text-align: center;
     
 }
+.middle{
+    width: 211%;
+    height: 900px;
+    padding-right:15px;
+    padding-left: 0px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+#message{
+    width: 80%;
+    margin: 10px;
+    height: 20px;
+    font-size: xx-small;
+    display: inline-block;
+
+
+}
+.fa-camera{
+    display: inline;
+    color: black;
+} 
+
+.right{
+
+    width: 72%;
+    height: 200px;
+    border: 1px solid rgba(0,0,0,.125);
+    padding-left:10px; 
+}
 .blocks{
     margin-left: 9px;
     padding: 12px
@@ -44,6 +74,11 @@ img.card-img-middle {
     float: left;
     width: 50%;
 }
+.block3{
+    display: block;
+    width: 12rem;
+}
+
 .topnav {
     background-color: #3097D1 !important;
     overflow: hidden;

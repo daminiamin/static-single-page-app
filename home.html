@@ -4,6 +4,7 @@
     <title>Profile Page</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
     
     <!-- navbar -->
     <div class="topnav">
-            <a><img src="logo.jpg" alt="Logo" style="width:20px;"></a>
+            <a><img src="img/logo.jpg" alt="Logo" style="width:20px;"></a>
             <a class="active" href="#home">Home</a>
             <a href="#news">Profile</a>
             <a href="#contact">Messages</a>
@@ -19,32 +20,52 @@
             <div class="topnav-right">
                 <form class="form-inline">
                     <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search">
-                    <img src="p.png" class="rounded" alt="Cinque Terre">
+                    <img src="img/d.png" class="rounded" alt="Cinque Terre">
                 </form>  
             </div>
     </div>
 <!-- separate blocks -->
-    <div class="blocks">
-        <div class="block1">
-            <div class="card left" >
-                <img src="./black.gif" class="card-img-top" alt="...">
-                <img src="p.png" class="card-img-middle" >
-                <div class="card-body">
-                    <p style="font-weight: 900;">Dave Gamache</p>
-                    <p> I wish i was a little bit taller,wish I was 
-                        a baller, wish i had a girl… also.
-                    </p>
+<div class="container-fluid blocks" >
+    <div class="row">
+        <!-- firt block -->
+        <div class="col-3">
+                <div class="block1">
+                        <div class="card left" >
+                            <img src="img/black.gif" class="card-img-top" alt="...">
+                            <img src="img/d.png" class="card-img-middle" >
+                            <div class="card-body">
+                                <p style="font-weight: 900;">Damini Amin</p>
+                                <p> I like to look at the clouds in the sky with a blank mind, 
+                                    I like to do thought experiment when I cannot sleep in the middle of the night. 
+                                    I like flowers in spring, rain in summer, leaves in autumn, and snow in winter. 
+                                </p>
+                            </div>
+                        </div>
+                </div> 
+        </div>
+        <!-- second block -->
+        <div class="col-6">
+            <div class="block2">
+                <div class="card middle">
+                    <span>
+                        <input class="form-control mr-sm-2=" id="message" type="search" placeholder="Message">
+                        <a href=""><i class="fas fa-camera"></i></a>
+
+                        </button>
+                    </span>
                 </div>
             </div>
         </div>
 
-        <div class="block2">
-            <div class="card middle" >    
-
-            </div>
-
+        <div class="col-3">
+                <div class="block3">
+                    <div class="card right">
+                    </div>
+                </div>
         </div>
     </div>
+</div>
+
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
