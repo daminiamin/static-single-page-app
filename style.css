@@ -37,6 +37,52 @@ img.card-img-middle {
     padding-left: 0px;
     border: 1px solid rgba(0,0,0,.125);
 }
+.middle-timeline{
+    padding: 1.5rem !important;
+    font-size: 7px;
+    margin-top: -30px;
+    display: -webkit-box;
+
+}
+.minutes{
+    float: right !important;
+    font-size: 80%;
+    font-weight: 400;
+}
+.about-me{
+    margin-top: -15px;
+}
+.t-photo{
+    border-radius: 39.2rem!important;
+    width: 35px;
+}
+.picture-row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.sponsored-pic img{
+    margin-top: -8px;
+    vertical-align: middle;
+    width: 119px;
+    height: 135px;
+    padding: 3px;
+}
+
+.sponsored {
+    font-size: 7px;
+}
+.picture-row img{
+    margin-top: -8px;
+    vertical-align: middle;
+    width: 140px;
+    height: 140px;
+    padding: 3px;
+
+
+}
 
 #message{
     width: 80%;
@@ -55,7 +101,7 @@ img.card-img-middle {
 .right{
 
     width: 72%;
-    height: 200px;
+    height: 250px;
     border: 1px solid rgba(0,0,0,.125);
     padding-left:10px; 
 }
@@ -77,6 +123,17 @@ img.card-img-middle {
 .block3{
     display: block;
     width: 12rem;
+}
+
+.buy-ticket button{
+    
+    color: #3097D1;
+    background-color: transparent;
+    border-color: #3097D1;
+    display: inline-block;
+    font-weight: 200;
+    
+
 }
 
 .topnav {
@@ -128,4 +185,40 @@ img.card-img-middle {
     margin-inline-start: 34px;
     margin-inline-end: 34px;
     margin-bottom: 0;
+}
+
+/* second row */
+
+.my-info{
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1.25rem;
+    width: 172px;
+    border-radius: 0.2rem;
+    height: 150px;
+    margin-top: 13px;
+    font-size: 8px;
+}
+
+.my-info p{
+    margin: 9px ;
+}
+.my-info a{
+    color:#6ec3f3;
+}
+.my-info img{
+    margin-top: -3px;
+    vertical-align: middle;
+    width: 69px;
+    height: 75px;
+    padding: 3px;
+    display: inline-block;  
+}
+.my-pics{
+    padding: 0px;
+    margin-top: -17px;
+    margin-left: -14px;
+    margin-right: 0px;
 }
