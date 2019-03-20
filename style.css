@@ -32,7 +32,7 @@ img.card-img-middle {
 }
 .middle{
     width: 211%;
-    height: 900px;
+    height: 705px;
     padding-right:15px;
     padding-left: 0px;
     border: 1px solid rgba(0,0,0,.125);
@@ -221,4 +221,92 @@ img.card-img-middle {
     margin-top: -17px;
     margin-left: -14px;
     margin-right: 0px;
+}
+
+.likers img{
+    border-radius: 39.2rem!important;
+    width: 33px;
+    height: 33px;
+}
+
+.likers{
+    margin-top: 11px;
+
+}
+.liker-2nd{
+
+    margin-top: 9px;
+}
+
+.rightside{
+
+    width: 138px;
+    padding: 8px;
+}
+
+.follow{
+    display: inline-block;
+}
+
+.follow img{
+
+    border-radius: 31.2rem !important;
+    width: 33px;
+    height: 33px;
+    padding: 1px;
+    margin-left: -4px;
+    margin-top: 4px;
+}
+.follow button{
+
+    color: #3097D1;
+    height: 15px;
+    border-color: #3097D1;
+    background-color: transparent;
+    text-align: center;
+    width: 44px;
+    font-size: 6px;
+    margin-top: 5px;
+    border-radius: 0.2rem;
+}
+
+.right-below{
+
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1.25rem;
+    width: 138px;
+    border-radius: 0.2rem;
+    height: 150px;
+    margin-top: 28px;
+    margin-left: -8px;
+    line-height: 1.6;
+}
+.right-below a{
+    font-weight: 300;
+    word-spacing: 10px;
+}
+
+.likers p{
+    font-size: 7px;
+
+}
+.middle-below{
+    margin-left: 28px;
+
+}
+
+.mid-below{
+    width: 211%;
+    height: 705px;
+    margin: 0px;
+}
+
+.oto img{
+    width: 97%;
+    height: 300px;
+    margin: 5px;
+
 }
